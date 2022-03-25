@@ -1,0 +1,58 @@
+body{
+    font-family: 'Chilanka', cursive;
+    background:linear-gradient(#e0ffff,#ffb6c1);
+    width: auto;
+    height: auto;
+}
+.imagem{
+    height: 131%;
+    width: 13%;
+    position: relative;
+    transform: translate(-15%, -12%);
+     
+}
+.menu-principal {
+    width: 100vw;
+    background-color: #FFBCD1;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    
+}
+.navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao li{
+    display: inline;
+    margin: 0 0 0 1em;
+    font-size: 1.34em;
+    
+   
+}
+.navegacao a{
+    text-transform: uppercase;
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s all;
+}
+.navegacao li:hover{
+    cursor: pointer;
+}
+
+.hearder-01{
+    width: 80%;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bercario h1{
+margin: 25px;
+font-size: 1.45em;
+font-weight: bold;
+}
+.bercario{
+    font-size: 1.2355em;
+}

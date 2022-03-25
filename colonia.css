@@ -1,0 +1,97 @@
+html {
+  min-width: 320px;
+  max-width: 1400px;
+}
+body {
+  font-family: "Chilanka", cursive;
+  background: linear-gradient(#e0ffff, #ffb6c1);
+}
+.imagem {
+  height: 131%;
+  width: 13%;
+  position: relative;
+  transform: translate(-15%, -12%);
+}
+.menu-principal {
+  width: 100%;
+  background-color: #ffbcd1;
+  height: 100px;
+  padding: 15px;
+  display: flex;
+}
+.navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navegacao li {
+  display: inline;
+  margin: 0 0 0 1em;
+  font-size: 1.34em;
+}
+.navegacao a {
+  text-transform: uppercase;
+  color: beige;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 1s all;
+}
+.navegacao li:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 30px;
+}
+p {
+  font-size: 1.2355em;
+}
+
+.conteudo {
+  font-weight: 400;
+  padding: 0 20px 0 20px;
+  width: 80%;
+
+  text-align: center;
+  margin: 0 auto;
+}
+.caixa {
+  margin: 25px;
+}
+
+.mochilaitens {
+  margin: 15px;
+  font-size: 1.2355em;
+  font-weight: bold;
+}
+.mochilaimagem {
+  position: relative;
+  height: 173px;
+  width: 25%;
+  transform: translate(90%, -90%);
+}
+
+@media screen and (max-width: 450px) {
+  .mochilaimagem {
+    width: 75%;
+    transform: translate(10%, -4%);
+  }
+  .imagem {
+    display: none;
+  }
+  .navegacao {
+    position: absolute;
+    top: 4%;
+    left: -3%;
+    font-size: 0.7em;
+  }
+  .navegacao li {
+    display: inline-block;
+    margin: 1em 0 0 3em;
+  }
+  .conteudo {
+    text-align: center;
+  }
+}

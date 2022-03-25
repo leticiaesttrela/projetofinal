@@ -1,0 +1,100 @@
+html {
+  min-width: 320px;
+  max-width: 1400px;
+}
+body {
+  font-family: "Chilanka", cursive;
+  background: linear-gradient(#e0ffff, #ffb6c1);
+}
+.imagem {
+  height: 131%;
+  width: 13%;
+  position: relative;
+  transform: translate(-15%, -12%);
+}
+.menu-principal {
+  width: 100%;
+  background-color: #ffbcd1;
+  height: 100px;
+  padding: 15px;
+  display: flex;
+}
+.navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navegacao li {
+  display: inline;
+  margin: 0 0 0 1em;
+  font-size: 1.34em;
+}
+.navegacao a {
+  text-transform: uppercase;
+  color: beige;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 1s all;
+}
+.navegacao li:hover {
+  cursor: pointer;
+}
+
+#titulo {
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: bold;
+  margin: 40px 0 60px 0;
+}
+.imagem-dev {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.descricao {
+  font-size: 1.35em;
+  margin: 30px 0 30px 0;
+}
+.imagem-logo {
+  height: 55px;
+}
+
+#bruno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#bruno--filho {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 0 50px 0;
+}
+
+#leticia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#leticia-filho {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 0 50px 0;
+}
+
+#samuel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+#samuel-filho {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 0 50px 0;
+}

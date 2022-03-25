@@ -1,0 +1,60 @@
+html {
+  min-width: 320px;
+  max-width: 1400px;
+}
+body {
+  width: 100vh;
+  height: 100vh;
+  font-family: "Chilanka", cursive;
+  background: linear-gradient(#e0ffff, #ffb6c1);
+}
+.cabecalho-caixa {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.imagem--logo {
+  position: relative;
+  width: 100%;
+}
+.body--inicio {
+  text-align: center;
+  margin: 60% 0 0 10%;
+}
+.body--inicio h1 {
+  font-size: 2.94em;
+  margin: 0 0 20%;
+}
+.body--inicio p {
+  font-size: 1.95em;
+}
+.body--inicio--btnComecar {
+  width: auto;
+  margin: 15%;
+}
+.botao {
+  font-size: 1.23em;
+  font-weight: bold;
+  font-family: "Chilanka", cursive;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 45%;
+  width: 35%;
+  padding: 6%;
+  background-color: #e0ffff;
+  transition-duration: 1s;
+}
+.botao:hover {
+  cursor: pointer;
+  background-color: hotpink;
+}
+.imagem-caixa {
+  left: 58%;
+  top: 65%;
+  position: absolute;
+  width: 40%;
+}
+.imagem--caixa {
+  position: relative;
+  width: 90%;
+}

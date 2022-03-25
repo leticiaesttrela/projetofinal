@@ -1,0 +1,67 @@
+html {
+  min-width: 320px;
+  max-width: 1400px;
+}
+body {
+  font-family: "Chilanka", cursive;
+  background: linear-gradient(#e0ffff, #ffb6c1);
+  width: auto;
+  height: auto;
+}
+.imagem {
+  height: 131%;
+  width: 13%;
+  position: relative;
+  transform: translate(-15%, -12%);
+}
+.menu-principal {
+  width: 100%;
+  background-color: #ffbcd1;
+  height: 100px;
+  padding: 15px;
+  display: flex;
+}
+.navegacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navegacao li {
+  display: inline;
+  margin: 0 0 0 1em;
+  font-size: 1.34em;
+}
+.navegacao a {
+  text-transform: uppercase;
+  color: beige;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navegacao li:hover {
+  cursor: pointer;
+}
+
+#profissionais h1 {
+  text-align: center;
+  margin: 40px 0 40px 0;
+  font-size: 1.45em;
+  font-weight: bold;
+}
+#profissionais p {
+  text-align: center;
+  font-size: 1.2355em;
+}
+
+#fotos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+.imagens {
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+}

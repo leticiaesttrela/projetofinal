@@ -1,0 +1,87 @@
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
+body{
+    width: auto;
+    height: auto;
+    font-family: 'Chilanka', cursive;
+    background:linear-gradient(#e0ffff,#ffb6c1);  
+}
+.imagem{
+    height: 131%;
+    width: 13%;
+    position: relative;
+    transform: translate(-15%, -12%);
+     
+}
+.menu-principal {
+    width: 100vw;
+    background-color: #FFBCD1;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    
+}
+.navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao li{
+    display: inline;
+    margin: 0 0 0 1em;
+    font-size: 1.34em;
+    
+   
+}
+.navegacao a{
+    text-transform: uppercase;
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s all;
+}
+.navegacao li:hover{
+    cursor: pointer;
+}
+
+ 
+
+
+.titulo{
+    text-align: center;
+    margin: 40px;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+.titulo:first-child{
+    text-transform: uppercase;
+}
+.entrada{
+   display: flex;
+   justify-items: center;
+   justify-content: space-between;
+   margin: 40px;
+}
+
+.salas{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.refeitorio{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.quartos{
+    display: flex;
+    justify-content: center;
+    
+}
+

@@ -1,0 +1,197 @@
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
+body{
+    font-family: 'Chilanka', cursive;
+    background:linear-gradient(#e0ffff,#ffb6c1);
+    
+}
+.imagem{
+    height: 131%;
+    width: 13%;
+    position: relative;
+    transform: translate(-15%, -12%);
+     
+}
+.menu-principal {
+    width: 100%;
+    background-color: #FFBCD1;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+}
+.navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegacao li{
+    display: inline;
+    margin: 0 0 0 1em;
+    font-size: 1.34em;
+}
+.navegacao a{
+    text-transform: uppercase;
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s all;
+}
+.navegacao li:hover{
+    cursor: pointer;
+}
+
+main{
+    margin-top: 5%;
+}
+
+form{
+    margin: 10% 3%;
+}
+form label{
+    display: block;
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+form label::first-letter{
+    text-transform: uppercase;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 5%;
+    padding: 5px 20px;
+    width: 40%;
+}
+.imagem2{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    margin-left: 40%;
+    top: 40%;
+}
+
+.botao{
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Chilanka', cursive;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left:20px ;
+    border-radius: 10px;
+    border:none;
+    background-color: beige;
+    transition-duration: 1s;
+}
+.botao:hover{
+    cursor: pointer;
+    background-color: hotpink;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+table{
+    border: 1px solid darkslategray;
+    width: 400px;   
+}
+td{
+    border: 1px solid darkslategray;
+    padding: 5px;
+}
+td::first-letter{
+    text-transform: uppercase;
+} 
+.tabela{
+    position:relative;
+    right:60px;
+    margin: 4%;
+   padding: 50px;
+   top: -90px;
+    
+}
+
+.imagem3{
+ position: relative;
+ width: 50%;
+
+}
+.caixa{
+    width: 35%;
+    position: absolute;
+    top: 0;
+    transform: translate(133%, 320%);
+}
+
+footer p{
+    font-size: bold;
+    margin: 5px;
+}
+.caixa-logo{
+    width: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:flex-end
+}
+.caixa-logo a{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.imagem-logo{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+@media screen and (max-width: 450px){
+    body{
+        background:linear-gradient(#e0ffff,#ffb6c1);
+    }
+    .menu-principal{
+        width: 117%;
+    }
+    .imagem{
+        display: none;
+    }
+    .imagem2 {
+        position: absolute;
+    width: 72%;
+    height: 30%;
+    transform: translate(6%, -59%);
+    }
+    .caixa{
+       position: relative;
+        width: 70%;
+        transform: translate(33%, -26%);
+    }
+    .tabela{
+     position: relative;
+    right: 0%;
+    margin: 4% 0 0 0;
+    padding: 14px;
+    top: -30px;
+    width: 100%;
+    }
+    .tabela table{
+        width: 70%;
+    }
+    .navegacao{
+        position: absolute;
+        top: 4%;
+        left: -3%;
+        font-size: 0.7em;
+    }
+    .navegacao li{
+        display: inline-block;
+        margin: 1em 0 0 3em;
+    }
+    .rodape{
+        margin: 18% 0 0 0;
+    }
+   
+}
